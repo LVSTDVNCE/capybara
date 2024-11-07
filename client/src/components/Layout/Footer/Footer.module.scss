@@ -1,0 +1,29 @@
+.footer {
+	width: 100%;
+	background-color: rgba(171, 99, 136, 1);
+	position: absolute;
+	bottom: 0;
+
+	&__wrapper {
+		max-width: 1440px;
+		margin: 0 auto;
+		height: 118px;
+		position: relative;
+	}
+
+	&__leftImg {
+		width: 135px;
+		height: 123px;
+		position: absolute;
+		bottom: 74px;
+		left: 120px;
+	}
+
+	&__rightImg {
+		width: 135px;
+		height: 131px;
+		position: absolute;
+		bottom: 70px;
+		right: 120px;
+	}
+}
